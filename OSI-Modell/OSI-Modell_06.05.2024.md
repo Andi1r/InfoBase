@@ -10,7 +10,7 @@ Eine Serie von Signalen, die elektrisch sein können, über Funk arbeiten oder d
 
 ##	Was sind passive Netzwerkkomponenten und welche kennst du?
 
-Passive Netzwerkkomponenten sind Komponenten, die der Datenübertragung dienen. Das sind Netzwerksteckdosen (RJ450 Steckdosen), RJ450 Schnittstellen und Hubs (kommen heutzutage nicht mehr vor)
+Passive Netzwerkkomponenten sind Komponenten, die der Datenübertragung dienen. Das sind Netzwerksteckdosen (RJ45 Steckdosen), RJ45 Schnittstellen und Hubs (kommen heutzutage nicht mehr vor)
 
 ##	Was ist der “CAT”-Standard?
 
