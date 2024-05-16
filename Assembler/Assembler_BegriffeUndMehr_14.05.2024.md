@@ -5,13 +5,13 @@
 ## Fachbegriffe
 
 ### High-Level Programming Language
-High-Level Programming Languages sind Programmiersprachen die mehr abstraction haben von der Maschinensprache. Diese Programmiersprachen haben nichts mit registers, memory adresses und andere sachen zu tun. Das sind z.B.: Javascript, Python, C#,...
+High-Level Programming Languages sind Programmiersprachen die für Menschen leichter zu verstehen und zu schreiben ist. Das sind z.B.: Javascript, Python, C#,...
 
 ### Assembly Language
-Programmiersprachen die direkt mit der Maschine arbeiten. "Assembly" sind sehr Low-Level Programmiersprachen. Assembly Languages arbeiten mit Registern, Memory Adressen und Call Stacks. Ein Beispiel wäre MIPS.
+Programmiersprache die direkt mit der Maschine arbeitet. Auch gennant "Low-Level Programming Language". Assembly arbeitet mit Registern und Memory Adressen. Ein Beispiel wäre MIPS-Assembly language.
 
 ### Machine Language
-Sprache der Maschine (Rechner) ermöglicht das das Gerät überhaupt funktioniert. Diese Sprache arbeitet in eine serie von bits (32 bits, 64 bits) die Befehle beinhalten. Diese Befehle sind in dem Prozessor vorhanden und werden auch dort ausgeführt.
+Maschinensprache die mit einer serie von bits arbeitet um Rechenarbeiten und Logik zu berechnen und verarbeiten. Diese Befehle sind in dem Prozessor vorhanden.
 
 ### Abstraktionsebene bzw. Abstraktion, abstrahieren
 Abstraktions ist die Trennung zwischen Konzept und Umsetzung.
@@ -20,7 +20,7 @@ Abstraktions ist die Trennung zwischen Konzept und Umsetzung.
 Instanzierung ist der Prozess des Lesens oder Angebens von Informationen, beispielsweise des Speichertyps und der Werte für ein Datenfeld. Eine Instanz ist eine Ausführungseinheit.
 
 ### Hexadecimal Code
-Hexadecimal Code ist Binärer Code das in Hexadecimal umwandelt wurde. Hexadecimal wird heutzutage von vielen internen und externen geräten benutzt um Daten zu berechnen.
+Hexadecimal Code ist code das im hexadecimal Zahlensystem geschrieben wurde. Es kann im gegensatz zu Binären Code mehr zahlen speichern und braucht weniger platz.
 
 ## Konzepte
 
@@ -33,19 +33,19 @@ Die "Arithmetic/Logic Unit" die Rechnungen und Logische Sequenzen ausführt.
 
 Die "Memory Unit" die dafür zuständig ist, die internen Speicher des Prozessors zu verwalten und für die anderen Komponente freizustellen.
 
-Und die Register die durch addressierung Adressen gegeben werden um Daten zu speichern zu können. Die Register sind am schnellestens zugreifbar von all den anderen Caches die der Prozessor zugriff hat.
+Und die Register sind kleine speichereinheiten. Die Register sind am schnellestens zugreifbar von all den anderen Caches die der Prozessor zugriff hat.
 
 ![Die von Neumann Architektur](https://wissensplattform-schueler.de/wp-content/uploads/2018/11/2000px-22von_Neumann22_Architektur_de.svg_-1024x506.png)
 Von: https://wissensplattform-schueler.de/von-neumann-architektur/
 
 ### MIPS-Assembler Language
-Diese Webseite (https://dannyqiu.me/mips-interpreter/) erlaubt den Benutzer eine Simulierte CPU zu benutzen um MIPS-Assembly Programme zu laufen und auszuprobieren. 
+Diese Webseite (https://dannyqiu.me/mips-interpreter/) erlaubt den Benutzer eine Simulierte CPU zu benutzen um MIPS-Assembly Programme laufen und auszuprobieren. 
 
 Auf der webseite sind Register, rechts vom Textfeld. Man kann sehen ob im Register werte sind und man kann die Anfangswerte der Register auch ändern.
 
 Am ende der Seite sind die Memory-Adressen, wo man sie eingeben kann und sehen ob etwas beinhaltet ist.
 
-Der simulierte Prozessor kann bis 124 Hz haben.
+Der simulierte Prozessor kann bis 256 Hz haben.
 
 Nur einige der MIPS-Assembly Instruktionen sind verfügbar.
 
