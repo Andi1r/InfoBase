@@ -30,7 +30,7 @@ Zugriffsverfahren sind verfahren die Kollisionen von Daten erkennen und vermeide
 
 ##	Was ist Flusskontrolle?
 
-Das gezielte Anhalten des Datenstroms, um eine Überlastung eines Systems durch eine Unmenge von Daten zu verhindern.
+Eine gezielte Anhaltung des Datenstroms, um eine Überlastung eines Systems durch eine Unmenge von Daten zu verhindern.
 
 ##	Wofür braucht man Fehlererkennung?
 
@@ -38,12 +38,11 @@ In Falle eines Bitübertragungsfehlers auf der Leitung springt die Fehlererkennu
 
 ##	Was ist eine MAC-Adresse und wofür wird sie benötigt?
 
-MAC-Adresse wird verwendet, damit man weiß an wem eine Nachricht geschickt wurde und wer und an wen das gelangen sollte. Theoretisch hat jedes Netzwerkfähiges gerät hat seinen eigene MAC-Adresse. 
-Im Lokalen Netzwerken werden MAC-Adressen benutzt, um Geräte zu kennzeichnen.
+
 
 ##	Was ist Protocol Multiplexing?
 
-Damit auf dem physikalischen Medium verschiedene Schicht-2-Protokolle gleichzeitig arbeiten können wird sogenanntes Multiplexing auf der Sicherungsschicht gehandhabt.
+Protocol Multiplexing ermöglicht das verschiedene Schicht-2-Protokolle gleichzeitig arbeiten können und wird auf der Sicherungsschicht gehandhabt. 
 
 ##	Erkläre den Begriff “Frame”!
 
